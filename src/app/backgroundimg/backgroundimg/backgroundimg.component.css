@@ -1,0 +1,19 @@
+img{
+  position: fixed;
+  width: 100%;
+}
+
+
+.comtainer{
+  position: relative;
+}
+.top-left {
+  position: absolute;
+  top: 67px;
+  left: 180px;
+  width: 300px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  
+}

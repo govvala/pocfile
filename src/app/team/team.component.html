@@ -1,0 +1,41 @@
+
+<div class="box" >
+
+
+    <ul>
+
+        <li ><a routerLink="/dashboard"  routerLinkActive="active">dashboard</a></li>
+     
+    <hr>
+     
+        <li> <a routerLink="/about" routerLinkActive="active">about</a></li>
+     
+    <hr>
+     
+         <li><a routerLink="/team" routerLinkActive="active">team</a></li>
+    <hr>     
+         <li><a routerLink="/auth" routerLinkActive="active">logout</a></li>
+    </ul>
+    </div>
+      
+<div class=container   >
+    
+    
+    
+    <h2>Meet the Team  </h2>
+    <hr>
+    <img src="https://www.yoyoevents.com/wp-content/uploads/2015/11/yoyo-blog-team-building-consistency-image-6.jpg"  height="150px" style="float: right;" >
+     
+        <li *ngFor="let row of teamdata"><img src={{row.imagePath}} width="40px" height="30px">{{row.name}}</li>
+        
+        
+       <!--  <li> <img src=""width="50px" height="50px">Niraj kumar</li>
+        <li> <img src="https://www.netclipart.com/pp/m/92-925009_clipart-of-voices-and-4tj-passport-size-photo.png"  width="50px" height="40px">jatin</li>
+        <li><img src="https://www.netclipart.com/pp/m/92-925009_clipart-of-voices-and-4tj-passport-size-photo.png"  width="40px" height="30px">Sidharth</li>
+        <li><img src="https://www.netclipart.com/pp/m/92-925009_clipart-of-voices-and-4tj-passport-size-photo.png"  width="40px" height="30px">Parasmani </li>
+        <li> <img src="https://i.pinimg.com/originals/76/c9/1e/76c91ec36561da647ac44c083b911be2.png" width="50px" height="50px">Bhawna</li>
+     -->
+    
+</div>
+
+

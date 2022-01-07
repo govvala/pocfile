@@ -1,0 +1,40 @@
+*{
+   font-family: play; 
+}
+.container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-40%,-50%);
+    width: 40opx;
+    background:white;
+    padding: 15px;
+    
+}
+.box.inputbox{
+    position: relative;
+    margin-right: 10px;
+}
+ul{
+    margin:0;
+    padding: 0;
+    list-style:none;
+    background-color: 0;
+    width:200px;
+    transform: translate(10%,-500%);
+    height:100px;
+    position:top ;
+}
+li{
+    float:left
+}
+a{
+display: block;
+color:black;
+text-decoration:none ;
+padding: 0 28px;
+font-size: 30px;
+}
+a:hover{
+    background-color: blue;
+}

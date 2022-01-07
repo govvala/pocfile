@@ -1,0 +1,53 @@
+<div class="box" >
+    
+<ul>
+
+   <li ><a routerLink="/dashboard"  routerLinkActive="active">dashboard</a></li>
+
+
+
+   <li> <a routerLink="/about" routerLinkActive="active">about</a></li>
+
+
+
+    <li><a routerLink="/team" routerLinkActive="active">team</a></li>
+
+    <li><a routerLink="/auth" routerLinkActive="active">logout</a></li>
+</ul>
+</div>
+<div class="container">
+
+<h1><img src="https://www.netclipart.com/pp/m/74-743590_halifax-regional-medical-center-doctor-office-icon-passport.png"alt="image" width=50px height=40px>welcome sowmya govvala!</h1>
+<hr>
+<h2>Account balance:3000</h2>
+<table width="900px" border="1px">
+    <tr>
+        <th>date</th>
+        <th>description</th>
+        <th>amount</th>
+        
+    </tr>
+    <tr *ngFor="let item of userData">
+        <td>{{item.date}}</td>
+        <td>{{item.description}}</td>
+        <td>{{item.amount}}</td>
+        
+    </tr>
+</table>
+<hr>
+<h3>subscribe alerts</h3>
+<input type="checkbox">sms alerts
+<br>
+<input type="checkbox">marketing newsletter
+<br>
+<input type="checkbox">flyers
+<br>
+<button>submit</button>
+<div>
+<label for="Two way databinding"style="float:right"  >Two way databinding</label>
+<input type="text" name="text" style="float:right" >
+</div>
+
+
+</div>
+

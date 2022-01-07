@@ -1,0 +1,29 @@
+*{
+    font-family: play;
+}
+.container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-80%,-50%);
+    width:250opx;
+    height:350px;
+    background: #ff0000c9;
+    padding:50px ;
+    box-sizing: border-box;
+}
+.cont.inputBox{
+    position: relative;
+}
+h1{
+    color:white
+}
+button{
+    background-color: #CC9900;
+    border-color: #775900;
+    color: #FFF;
+    float:right;
+    padding:5px;
+    width: 25%
+}
+ 

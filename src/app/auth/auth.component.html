@@ -1,0 +1,25 @@
+
+<div class="container">
+  <h1>Login Register</h1>
+  
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+        <form [formGroup]="authForm"(ngSubmit)="login()" >
+          <div id="user-data">
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input formControlName="username" type="text" id="username" class="form-control">
+            </div>
+            
+            <div class="form-group">
+              <label for="password">password</label>
+              <input  formControlName="password"type="password" id="password" class="form-control">
+            </div>
+          </div>
+          <button class="btn btn-primary" type="submit" style=float:right>LOGIN</button>
+        </form>
+          
+        
+      </div>
+    </div>
+  </div>
